@@ -1,0 +1,13 @@
+.one{
+   
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    padding: 30px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+legend{
+    color: red;
+    font-weight: bold;
+}

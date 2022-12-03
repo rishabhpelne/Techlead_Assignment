@@ -1,0 +1,58 @@
+.container{
+    height: 530px;
+    width: 1000px;
+    background-color: aqua;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    background-color: rgba(28, 65, 145, 0.692);
+    flex-basis: 30px;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+main{
+    background-color: brown;
+    display: flex;
+    height: 500px;
+}
+aside{
+    background-color: chartreuse;
+    flex-basis: 300px;
+    background-image: url(image/Black-Coffee-1.jpg);
+    background-size: cover;
+}
+article{
+    background-color: darkgrey;
+    flex-basis: 750px;
+}
+.one{
+   display: inline-block;
+   margin-right: 100px;
+   padding-left: 20px;
+}
+.two{
+    display: inline-block;
+}
+h2,p{
+    padding-left: 20px;
+    padding-right: 100px;
+}
+input{
+    height: 20px;
+    width: 250px;
+}
+label{
+    font-weight: bold;
+}
+button{
+   margin-left: 20px;
+   height: 30px;
+   width: 200px;
+   background-color: blue;
+   color: white;
+   border: none;
+}
