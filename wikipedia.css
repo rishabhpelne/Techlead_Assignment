@@ -1,0 +1,83 @@
+body{
+    display: flex;
+}
+nav{
+    background-color: rgb(241, 235, 235);
+    flex-basis: 200px;
+}
+.navimg{
+    height: 32vh;
+    background-image: url(image/wiki.jfif);
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+.link{
+    height: 68vh;
+}
+ul,li{
+    list-style: none;
+}
+main{
+    height: 100vh;
+    width: 100vw;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+}
+.menu{
+    /* background-color: aqua; */
+    flex-basis: 55px;
+}
+.menu ul li{
+    float: right;
+    list-style: none;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 20px;
+ }
+ li a{
+    text-decoration: none;
+ }
+.heading{
+    /* background-color: brown; */
+    flex-basis: 40px;
+    border-bottom: 1px solid;
+}
+section{
+    display: flex;
+    height: 80vh;
+}
+aside{
+    /* background-color: darkgoldenrod; */
+    flex-basis: 1000px;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    /* background-color: darkviolet; */
+    flex-basis: 250px;
+    margin-top: 10px;
+}
+.name{
+    background-color: rgb(218, 214, 214);
+    height: 9vh;
+}
+.name h3{
+    text-align: center;
+}
+.img{
+    background-image: url(image/sania.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+}
+h2,h4,p{
+    padding-left: 20px;
+    padding-right: 40px;
+}
+#one{
+    word-spacing: 7px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
