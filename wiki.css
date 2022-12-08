@@ -16,12 +16,20 @@ aside{
     background-image: url(image/wiki.jfif);
     background-repeat: no-repeat;
     background-position: center;
+    flex-grow: 1;
 }
-/* .nameing{
-
-} */
+.nameing{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-basis: 200px;
+    flex-grow: 8;
+}
 main{
-    flex-basis: 600px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-basis: 500px;
     flex-grow: 9;
     border-left: 1px solid;
 }
@@ -36,7 +44,7 @@ header{
 .menu ul{
     display: flex;
     justify-content: end;
-   
+    flex-wrap: wrap;
 }
 .menu ul li{
     padding: 20px;
@@ -67,7 +75,7 @@ section{
     text-align: center;
 }
 .img{
-    background-image: url(image/sania.jpg);
+    background-image: url(image/sania1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 60vh;
