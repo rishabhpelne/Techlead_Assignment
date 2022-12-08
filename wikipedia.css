@@ -24,14 +24,18 @@ main{
 header{
     display: flex;
     flex-direction: column;
-    height: 20vh;
+    /* height: 20vh; */
+   
 }
-.menu{
-    /* background-color: aqua; */
-    flex-basis: 55px;
+/* .menu{
+  
+} */
+.menu ul{
+    display: flex;
+    justify-content: end;
 }
 .menu ul li{
-    float: right;
+    
     list-style: none;
     padding: 10px;
     padding-left: 30px;
@@ -44,21 +48,26 @@ header{
     /* background-color: brown; */
     flex-basis: 40px;
     border-bottom: 1px solid;
+    
 }
 section{
     display: flex;
     height: 80vh;
+    
 }
 aside{
     /* background-color: darkgoldenrod; */
     flex-basis: 1000px;
+    
 }
 article{
     display: flex;
+
     flex-direction: column;
     /* background-color: darkviolet; */
     flex-basis: 250px;
     margin-top: 10px;
+    
 }
 .name{
     background-color: rgb(218, 214, 214);
@@ -78,6 +87,6 @@ h2,h4,p{
     padding-right: 40px;
 }
 #one{
-    word-spacing: 7px;
+    word-spacing: 10px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
