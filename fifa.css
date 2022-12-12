@@ -113,9 +113,10 @@ section{
 }
 .right{
     flex-grow: 2;
-    background-image: url(image/img);
+    background-image: url(image/img2);
     background-size: cover;
-    padding-top: 270px;
+    background-repeat: no-repeat;
+    padding-top: 250px;
     padding-left: 30px; 
 }
 h1,h2,h3{

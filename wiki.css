@@ -17,13 +17,14 @@ aside{
     background-repeat: no-repeat;
     background-position: center;
     flex-grow: 1;
+    flex-basis: 150px;
 }
 .nameing{
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
     flex-basis: 200px;
-    flex-grow: 8;
+    flex-grow: 2;
 }
 main{
     display: flex;
@@ -40,6 +41,7 @@ header{
 }
 .menu{
     border-bottom: 1px solid;
+    background-color: rgb(218, 214, 214);
 }
 .menu ul{
     display: flex;
