@@ -36,13 +36,16 @@ a{
     text-decoration: none;
     color: white;
 }
-
+i{
+    font-size: 25px;
+}
 .menu{
     display: inline-block;
 }
 .menu ul{
     display: flex;
     flex-wrap: wrap;
+   
 }
 .menu ul li{
     list-style: none;
